@@ -11,8 +11,8 @@ g.part5 = function(datadir=c(),metadatadir=c(),f0=c(),f1=c(),strategy=1,maxdur=7
                    M5L5res = 10,
                    overwrite=FALSE,desiredtz="Europe/London",bout.metric=4, dayborder = 0) {
                    
-                   #Modification of the g.part5 function to calculate SD and CV from the acceleration-based metrics. Mo
-        
+        #Modification of the g.part5 function to calculate SD and CV from the acceleration-based metrics (lines 507-524)
+        #==================================================================================================================
         # description: function called by g.shell.GGIR
         # aimed to merge the milestone output from g.part2, g.part3, and g.part4
         # in order to create a merged report of both physical activity and sleep
